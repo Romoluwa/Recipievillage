@@ -1,13 +1,95 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+.navbar {
+  background-color: rgb(1, 1, 22);
+}
+.navContent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.navContent .Logo {
+  width: 50px;
+  height: 50px;
+}
+.navItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.navItems a {
+  text-decoration: none;
+}
+.navbtn {
+  padding: 0px 15px;
+  color: white;
+  font-size: 15px;
+  /* text-decoration: none; */
+}
+
+.landingPage {
+  background-image: url("https://i.pinimg.com/originals/50/e7/74/50e774c629da3780e9c00f53b2cccc31.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.landingPage .Header {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.landingPage p {
+  font-weight: 400;
+  font-size: 20px;
+}
+.btn {
+  background-color: rgb(18, 164, 18);
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+}
+.btn:hover {
+  background-color: rgb(253, 195, 6);
+}
+.searchBar {
+  width: 100%;
+  padding: 20px;
+}
+/* .searchContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+} */
+.input {
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;
+}
+.recipiePage {
+  width: 100vw;
+  overflow: hidden;
 }
