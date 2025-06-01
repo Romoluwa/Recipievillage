@@ -1,0 +1,84 @@
+.recipeDetailsContainer {
+  background-color: #f9fafb;
+
+  height: 100%;
+}
+.i1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+  color: #1f2937;
+}
+.ingredientCard {
+  padding: 50px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  /* margin-left: 20px;
+  margin-top: 20px; */
+}
+.instructionCard {
+  padding: 50px;
+  text-align: justify;
+  /* margin: 100px; */
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.container {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.content {
+  color: #374151;
+}
+@media screen and (max-width: 450px) {
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navContent .Logo {
+    width: 30px;
+    height: 30px;
+  }
+  .navItems {
+    gap: 3px;
+  }
+  .navbtn {
+    padding: 0px 10px;
+  }
+  .container {
+    padding: 10px;
+    width: 90%;
+  }
+  .ingredientCard {
+    gap: 5px;
+    padding: 30px;
+  }
+  .instructionCard {
+    padding: 30px;
+    text-align: justify;
+    /* margin: 100px; */
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+}

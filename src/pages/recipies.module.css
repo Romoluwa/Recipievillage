@@ -1,0 +1,70 @@
+.searchInput {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid rgb(149, 139, 139);
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  gap: 20px;
+  padding: 20px;
+}
+/* .recipiePage {
+  padding: 200px;
+  margin: auto;
+  height: 100vh;
+} */
+.title {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: left;
+}
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.card {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+  background-color: gray;
+}
+.cardTitle {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: left;
+  padding: 15px;
+  background-color: gray;
+  border-radius: 0px 0px 10px 10px;
+  color: antiquewhite;
+}
+.card:hover {
+  transform: translateY(-6px);
+  opacity: 0.5;
+}
+@media screen and (max-width: 450px) {
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navContent .Logo {
+    width: 30px;
+    height: 30px;
+  }
+  .navItems {
+    gap: 3px;
+  }
+  .navbtn {
+    padding: 0px 10px;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+    gap: 20px;
+    padding: 20px;
+  }
+}
